@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+}
+
+.container {
+        display: inline-block;
+        width: 1000px;
+        height: 200px;
+        margin-left: calc( (100% - 1000px)  / 2 );
+        margin-top: 80px;
+        
+    }
+        .left {
+            display: inline-block;
+            width: 40%;
+            float: left;
+        }
+        .right {
+            display: inline-block;
+            width: 60%;
+            float: right;
+        }
+    
