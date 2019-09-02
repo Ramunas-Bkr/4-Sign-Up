@@ -9,7 +9,7 @@ body {
     background-color: aquamarine;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font: bold;
-    background-image: url(../Img/Kalnas.jpg);
+    background-image: url(../Img/Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,7 +35,8 @@ body {
             .container > .left > h1 {
                 display: inline-block;
                 padding: 40px;
-                color: white
+                color: white;
+                font-weight: lighter;
             }
             .container > .left > footer {
                 display: inline-block;
@@ -46,7 +47,8 @@ body {
                 color: white;
             }
                 .container > .left > footer > a {
-                    text-decoration: none;
+                    text-decoration: underline;
+                    color: white;
                 }
     .right {
         display: inline-block;
@@ -66,7 +68,8 @@ body {
         position: absolute;
         top: 0;
         right: 0;
-        color: #ccc
+        color: #ccc;
+        font-weight: lighter;
     }
     .form {
         display: inline-block;
